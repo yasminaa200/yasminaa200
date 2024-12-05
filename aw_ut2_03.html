@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinión</title>
+</head>
+<body bgcolor="9beee4">
+<h1 align="center"><img src="imagenes/logo.png" width="50" height="50" align="center"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EL MUNDO DE LAS MOTOS CONMIGO&nbsp;&nbsp;&nbsp;&nbsp;<img src="imagenes/logo.png" width="50" height="50" align="center"/></h1>
+
+    <form action="entrega.html" method="post" enctype="multipart/form-data">
+
+
+        <div>
+            <fieldset>
+                <legend>Datos de nuetro lector</legend>
+                <p>Nombre: <input type="text" name="nombe" value="" size="40" accesskey="accesskey"/></p>
+                <p>Dirección de correo electrónico: <input type="text" name="correo" value="" accesskey="accesskey"/></p>
+                <p>Teléfono: <input type="text" name="clave" maxlength="7" accesskey="accesskey"/></p>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Cuanto te ha gustado mi página web?</legend>
+                <p>Del 1 al 10: <input type="number" name="num" size="5" required="required"/>
+                <p>Seleccione la opción correcta desde tu bajo punto de vista como esta la página web</br>
+                    <input type="radio" name="opi" value="SUPERBIEN"/>SUPERBIEN
+                    <input type="radio" name="opi" value="BIEN" checked="checked"/>BIEN
+                    <input type="radio" name="opi" value="NO ME HA GUSTADO MUCHO"/>NO ME HA GUSTADO MUCHO
+                    <input type="radio" name="opi" value="MEJORABLE"/>MEJORABLE
+                </p>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+            <legend>Comentarios extra para conocerte</legend>
+            <p>Selecciona el tipo de motos favoritos:</p>
+            <select name="motos" size="3" multiple="multiple">
+                <option value="moto1">Dportivas</option>
+                <option value="moto2">Chopper</option>
+                <option value="moto3">Naked</option>
+                <option value="moto3">Scooter</option>
+                <option value="moto3">Enduro</option>
+                <option value="moto4">Aventura</option>
+            </select>
+        </fieldset>
+        </div>
+        
+        <div>
+           <fieldset>
+                <legend>Danos tu opinión perosnalmente hacia los gustos hacia las motos:</legend>
+                <textarea name="opinion" rows="10" maxlength="500" placeholder="Escribe aquí tu opinión"></textarea>
+            </fieldset>  
+        </div>
+
+    <div>
+        <p>Sube alguna moto que te guste mucho o que sea la de tus sueños: </p>
+        <input type="file" name="archivo" tabindex="10">
+    </div>
+</br>
+        <button type="submit" tabindex="12">Enviar</button>
+        <button type="reset" tabindex="13">Restablecer</button>
+        <button type="button" accesskey="c" tabindex="14" onclick="alert('Gracias por ver mi página de web!')">Finalizar</button>
+    </form>
+<a href="aw_ut2_01.html"><img src="imagenes/ktm1.jpg" width="300" height="300"/></a>
+</br>
+<a href="aw_ut2_02.html"><img src="imagenes/ktm2.png" width="300" height="200"/></a> 
+
+</html>   
